@@ -2,7 +2,7 @@ class HomebrewKubeHealthMonitor < Formula
   desc ""
   homepage ""
   url "https://github.com/susheem-k/homebrew-kube-health-monitor/archive/refs/tags/v0.0.1.tar.gz"
-  sha256 "8aac2cecb1222279376a05fc2091aa90bb9f4cc63978ce70be432d67a441c0fc"
+  sha256 "20616f1bc109b1ced74b7884ccbc48900497ca1796220953d598fff706e286b1"
   license "MIT"
 
   def install
