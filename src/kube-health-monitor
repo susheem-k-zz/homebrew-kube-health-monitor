@@ -90,8 +90,9 @@ def prune_data_set(data_set, exclusion_patterns):
 def is_stack_excluded(stack_name, exclusion_patterns):
     if exclusion_patterns is None:
         return False
-
-    if any(exclusion_pattern.lower() in stack_name.lower() for exclusion_pattern in exclusion_patterns):
+    
+    exclusion_patterns_array = exclusion_patterns.split(",")
+    if any(exclusion_pattern.lower() in stack_name.lower() for exclusion_pattern in exclusion_patterns_array):
         return True
     return False
 
